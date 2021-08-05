@@ -1,0 +1,64 @@
+<resourcebundle>
+	<resource id="E7_001">
+		<error-type>DATA_ERROR</error-type>
+		<key>Please specify proper S-Tag value</key>
+		<value>Invalid S-Tag value provided. Please use a valid S-Tag and
+			retry the operation.</value>
+	</resource>
+	<resource id="E7_002">
+		<error-type>DATA_ERROR</error-type>
+		<key>Group member is part of another group, please select another port
+		</key>
+		<value>One of the bonded ports is a member of another Bonded group.
+			Please do the required clean-up and retry the operation.</value>
+	</resource>
+	<resource id="E7_003">
+		<error-type>DATA_ERROR</error-type>
+		<key>Group already exist with the selected ports</key>
+		<value>Bonded group already exist in the CMS. Please perform a portrefresh to view the updated provisioning details.</value>
+	</resource>
+	<resource id="E7_004">
+		<error-type>DATA_ERROR</error-type>
+		<key>already existing serial number</key>
+		<value>Entered/Selected ONT serial number is already associated to
+			another ONT. Please provide a valid serial number and retry the
+			operation.</value>
+	</resource>
+	<resource id="E7_005">
+		<error-type>DATA_ERROR</error-type>
+		<key>registration-id conflicts with existing provisioning</key>
+		<value>Entered registration id is already associated to another ONT.
+			Please enter unique registration id and retry the operation.</value>
+	</resource>
+	<resource id="E7_006">
+		<error-type>COMMUNICATION_ERROR</error-type>
+		<key>deny empty response</key>
+		<value>Unable to communicate with the Node. Please resolve the network
+			issue and retry the operation</value>
+	</resource>
+	<resource id="E7_007">
+		<error-type>DATA_ERROR</error-type>
+		<key>find synchronization information of global profile</key>
+		<value>Selected Profile/Tag-Action is not synchronized on the device.
+			Please synchronize the selected profile or provide a different
+			profile and retry the operation.</value>
+	</resource>
+	<resource id="E7_008">
+		<error-type>DATA_ERROR</error-type>
+		<key>Service already available in port</key>
+		<value>Service already exist in the selected port. Please refresh the
+			port to check for any service and accordingly retry the operation.
+		</value>
+	</resource>
+	<resource id="E7_009">
+		<error-type>DATA_ERROR</error-type>
+		<key>DSL bonded interface already exists</key>
+		<value>Bonded group already exist in the CMS. Please perform a port
+			refresh to view the updated provisioning details.</value>
+	</resource>
+	<resource id="E7_010">
+		<error-type>DATA_ERROR</error-type>
+		<key>could not extract ResultSet;</key>
+		<value>DB Exception.</value>
+	</resource>
+</resourcebundle>
